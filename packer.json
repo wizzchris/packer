@@ -31,7 +31,7 @@
     {
       "type": "chef-solo",
       "cookbook_paths": ["./cookbooks"],
-      "run_list":["node_cookbook::default"]
+      "run_list":["mongodb_cookbook::default"]
     }
   ]
 }
